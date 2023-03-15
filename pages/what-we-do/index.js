@@ -21,7 +21,7 @@ export default function Treatments({ posts }) {
 
       <main>
         <div className="mx-auto max-w-7xl min-h-screen my-10 px-2 sm:px-6 lg:px-8">
-          <PageTitle> Treatments </PageTitle>
+          <PageTitle> What We Do </PageTitle>
           <div className="mt-8">
             <h2 className="text-3xl leading-tight font-bold">What We do</h2>
             <p className="text-gray-600 mt-2 mb-8 md:max-w-lg">
