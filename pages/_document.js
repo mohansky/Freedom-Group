@@ -48,7 +48,7 @@ export default class MyDocument extends Document {
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary"/>
-          <meta name="twitter:title" content="The Sapphire Clinics"/>
+          <meta name="twitter:title" content="Freedom Group Rishikesh"/>
           {/* <meta name="twitter:site" content={BASE_PATH} /> */}
           <meta name="twitter:creator" content="@mogsishere" />
         </Head>
