@@ -1,0 +1,7 @@
+[
+  { "name": "facebook", "URL": "#", "icon": "/icons/facebook.svg", "alt": "facebook" },
+  { "name": "youtube", "URL": "#", "icon": "/icons/youtube.svg", "alt": "youtube" },
+  { "name": "twitter", "URL": "#", "icon": "/icons/twitter.svg", "alt": "twitter" },
+  { "name": "pinterest", "URL": "#", "icon": "/icons/pinterest.svg", "alt": "pinterest" },
+  { "name": "instagram", "URL": "#", "icon": "/icons/facebook.svg", "alt": "instagram" }
+]

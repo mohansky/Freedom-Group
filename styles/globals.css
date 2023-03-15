@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Work Sans, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant SC', serif;
+    color: #fbbf24;
+  }
+  p{
+    font-family: Open Sans, sans-serif;
+  }
+} 
+
+main {
+  overflow: hidden;
+}
+ 
+.bg-scblue-nav {
+  background: rgba(6, 41, 107, 0.666);
+}
+
+.bg-blue-teal-gradient {
+  background: #0a49bd; 
+  background: linear-gradient(
+    90deg,
+    rgba(10, 73, 189, 1) 60%,
+    rgba(56, 178, 172, 1) 100%
+  );
+}
+
+@media (min-width: 1024px) {
+  .cover {
+    border-bottom-right-radius: 256px;
+  }
+}

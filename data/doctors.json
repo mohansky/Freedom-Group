@@ -1,0 +1,12 @@
+[
+    {
+      "image": "/images/doctors/DR-SHEELA-NATRAJ.jpg",
+      "name": "Dr. Sheela Natraj", 
+      "description": ["MBBS", "DVD Fellowship in Medical Cosmetology & Aesthetics (Mumbai)", "Consultant Dermatologist KMC: 68481"]
+      },
+    {
+      "image": "/images/doctors/DR-NATRAJ-SETTY.jpg",
+      "name": "Dr. Natraj Setty",
+      "description": ["MBBS", "MD - Cardiology DM - Cardiology ", "FACC, FICC, FSCAI KMC: 42541"]
+    }
+  ]
