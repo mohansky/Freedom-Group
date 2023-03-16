@@ -21,6 +21,11 @@
   },
   {
     "weight": "5",
+    "title": "Support Us",
+    "url": "/support"
+  },
+  {
+    "weight": "6",
     "title": "Contact",
     "url": "/contact"
   }
