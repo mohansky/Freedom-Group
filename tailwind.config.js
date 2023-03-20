@@ -25,8 +25,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        'scblue': '#fbbf24',
-        'purple': '#7e5bef',
+        'fgprimary': '#ee753b',
+        'fgsecondary': '#23ab6c',
         'pink': '#ff49db',
       },
       screens: {
