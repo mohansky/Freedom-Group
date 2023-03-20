@@ -6,7 +6,7 @@ export default function About() {
     <>
       <section id="about-us" className="relative mb-12 px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-8">
         <PageTitle>About Us</PageTitle>
-        <div className="w-4/6 mx-auto">
+        <div className="md:w-4/6 mx-auto">
           {/* <div className="w-full lg:w-1/2 lg:px-8"> */}
             <h2 className="text-3xl text-center leading-tight font-bold my-4">
               &quot;Hands That Serve Are Holier Than That Pray&quot;
