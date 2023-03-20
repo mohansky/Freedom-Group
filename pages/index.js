@@ -12,6 +12,9 @@ import WhatWeDo from "@display/what-we-do";
 import WWDCard from "@display/wwd-card";
 
 export default function Home({ posts }) {
+  const WWDList = posts.filter(
+    (post) => !post.frontmatter.draft
+  ); 
   return (
     <>
       <Head>
@@ -32,14 +35,10 @@ export default function Home({ posts }) {
 
         <About />
 
-        <section
-          className="relative bg-gray-100 bg-repeat px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-32"
-          // style={{ backgroundImage: "url(" + "/images/fgbgpattern.png" + ")" }}
-        >
-          <WhatWeDo />
-
+        <section className="relative bg-gray-100 bg-repeat px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-32">
+          {/* <WhatWeDo /> */}
           <div className="md:flex md:flex-wrap mt-6 mb-12 text-center md:-mx-4 ">
-            {posts.map((post, index) => (
+            {WWDList.map((post, index) => (
               <WWDCard key={index} post={post} />
             ))}
           </div>
@@ -70,7 +69,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      posts: posts.sort(sortByWeight),
+      posts: posts.sort(sortByWeight).filter((post) => !post.frontmatter.draft),  
     },
   };
 }

@@ -4,10 +4,11 @@ import matter from "gray-matter";
 import Head from "next/head";
 import Image from "next/image";
 import PageTitle from "@display/page-title";
-import { sortByWeight } from "../../utils";
+import { sortByWeight, filterDrafts } from "../../utils";
 import WWDCard from "@display/wwd-card";
+import Container from "@layout/container";
 
-export default function Treatments({ posts }) {
+export default function Treatments({ posts }) { 
   return (
     <>
       <Head>
@@ -20,21 +21,14 @@ export default function Treatments({ posts }) {
       </Head>
 
       <main>
-        <div className="mx-auto max-w-7xl min-h-screen my-10 px-2 sm:px-6 lg:px-8">
+        <Container>
           <PageTitle> What We Do </PageTitle>
-          <div className="mt-8">
-            <h2 className="text-3xl leading-tight font-bold">What We do</h2>
-            <p className="text-gray-600 mt-2 mb-8 md:max-w-lg">
-              Some of the programs that we organise.
-            </p>
-          </div>
-
           <div className="md:flex md:flex-wrap mt-6 mb-12 text-center md:-mx-4 ">
             {posts.map((post, index) => (
               <WWDCard key={index} post={post} />
             ))}
           </div>
-        </div>
+        </Container>
       </main>
     </>
   );
@@ -57,7 +51,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      posts: posts.sort(sortByWeight),
+      posts: posts.sort(sortByWeight).filter((post) => !post.frontmatter.draft),
     },
   };
 }

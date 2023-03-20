@@ -9,8 +9,7 @@ import Link from "next/link";
 import Image from "next/image";
 import ButtonRound from "@ui/button-round";
 import Button from "@ui/button";
-import { Icon } from "@iconify/react";
-import { ImgComparisonSlider } from "@img-comparison-slider/react";
+import { Icon } from "@iconify/react"; 
 
 const components = {
   a: Button,
@@ -26,7 +25,7 @@ export default function PostPage({ source, frontMatter }) {
   return (
     <>
       <Head>
-        <title>The Sapphire Clinics</title>
+        <title>Freedom Group Rishikesh</title>
         <meta
           name="description"
           content="Welcome to the Skin Clinic of Dr. Sheela Natraj."
@@ -35,15 +34,15 @@ export default function PostPage({ source, frontMatter }) {
       </Head>
 
       <main>
-        <div className="mx-auto max-w-7xl min-h-screen my-10 px-2 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl min-h-screen mt-48 mb-12 px-2 sm:px-6 lg:px-8">
           <div className="text-end mt-20">
-            <ButtonRound>
+            {/* <ButtonRound>
               <Link href="/what-we-do">
                 <Icon icon="ph:arrow-circle-left" className="w-10 h-10" />
               </Link>
-            </ButtonRound>
+            </ButtonRound> */}
           </div>
-          <h2 className="uppercase text-scblue text-5xl text-center font-extrabold mt-8 mb-12">
+          <h2 className=" text-scblue text-4xl text-center font-extrabold mt-64 mb-12">
             {frontMatter.title}
           </h2>
           <div>
@@ -58,26 +57,7 @@ export default function PostPage({ source, frontMatter }) {
             {/* <h4 className="mb-2 font-semibold">{frontMatter.subtitle}</h4> */}
             <MDXRemote {...source} components={components} />
           </div>
-          {frontMatter.before ? (
-            <div className="m-7 md:m-14 lg:m-28 text-center">
-              <ImgComparisonSlider>
-                <Image
-                  slot="first"
-                  src={frontMatter.before}
-                  alt="before"
-                  width={360}
-                  height={240}
-                />
-                <Image
-                  slot="second"
-                  src={frontMatter.after}
-                  alt="after"
-                  width={360}
-                  height={240}
-                />
-              </ImgComparisonSlider>
-            </div>
-          ) : null}
+          
         </div>
       </main>
     </>
