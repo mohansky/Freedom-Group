@@ -6,12 +6,12 @@ export default function About() {
     <>
       <section id="about-us" className="relative mb-12 px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-8">
         <PageTitle>About Us</PageTitle>
-        <div className="flex flex-col lg:flex-row lg:-mx-8">
-          <div className="w-full lg:w-1/2 lg:px-8">
-            <h2 className="text-3xl leading-tight font-bold mt-4">
+        <div className="w-4/6 mx-auto">
+          {/* <div className="w-full lg:w-1/2 lg:px-8"> */}
+            <h2 className="text-3xl text-center leading-tight font-bold my-4">
               &quot;Hands That Serve Are Holier Than That Pray&quot;
             </h2>
-            <p className="mt-2 leading-relaxed">
+            <p className="mt-2 text-justify leading-relaxed text-slate-800">
               Freedom Group was created by Ajay Das and a group of school
               friends in 2017 who shared a strong inclination to Serve, and came
               together with local slum children to clean the Ghats of Holy River
@@ -32,14 +32,17 @@ export default function About() {
               work it was time to make and register an offical Society which is
               Freedom Group Foundation Society.
             </p>
-          </div>
-
-          <div className="w-full lg:w-1/2 lg:px-8 mt-12 lg:mt-0">
-            <div className="md:flex">
-              <Image src="/images/group.jpg" width={480} height={480} alt="" />
+            <div className="my-16">
+              <Image className="mx-auto" src="/images/freedom-group.jpg" width={640} height={480} alt="" />
             </div>
           </div>
-        </div>
+
+          {/* <div className="w-full lg:w-1/2 lg:px-8 mt-12 lg:mt-0">
+            <div className="md:flex">
+              <Image src="/images/freedom-group.jpg" width={480} height={480} alt="" />
+            </div>
+          </div> */}
+        {/* </div> */}
       </section>
     </>
   );

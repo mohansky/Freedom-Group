@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function GridImage({ key, index, left, top, photo, onClick }) {
   const { height, width, src, alt, title } = photo;
   return (
-    <div className="block absolute cursor-pointer border-2 border-transparent border-solid hover:border-blue-900 rounded-md ease-in-out duration-300" 
+    <div className="block absolute cursor-pointer border-2 border-transparent border-solid hover:border-fgprimary rounded-md ease-in-out duration-300" 
     key={`${key}-${index}`}
       // index={index}
       onClick={(e) => onClick(e, { index })}

@@ -8,7 +8,7 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <>
-      <nav className="w-full bg-amber-400 backdrop-blur fixed top-0 left-0 right-0 z-50">
+      <nav className="w-full bg-white backdrop-blur fixed top-0 left-0 right-0 z-50 shadow-md">
         {/* <NavContact /> */}
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
@@ -18,8 +18,8 @@ export default function NavBar() {
                   src="/images/fglogo.svg"
                   alt=""
                   className=""
-                  width={100}
-                  height={100}
+                  width={110}
+                  height={110}
                 />
               </Link>
               <div className="md:hidden">
@@ -30,11 +30,11 @@ export default function NavBar() {
                   {navbar ? (
                     <Icon 
                       icon="ph:x" 
-                      className="w-8 h-8 text-white ease-in-out duration-500 focus:border-none active:border-none" />
+                      className="w-8 h-8 text-black ease-in-out duration-500 focus:border-none active:border-none" />
                   ) : (
                     <Icon
                       icon="ph:list"
-                      className="w-8 h-8 text-white ease-in-out duration-500 focus:border-none active:border-none"
+                      className="w-8 h-8 text-black ease-in-out duration-500 focus:border-none active:border-none"
                     />
                   )}
                 </button>
@@ -51,8 +51,8 @@ export default function NavBar() {
                 {MenuItems.map((item, index) => (
                   <li
                     key={index}
-                    className="text-white text-xl text-center font-semibold py-6 md:py-2 px-3 
-                    border-b-2 md:border-b-0 border-blue-900 hover:bg-blue-600
+                    className="text-black text-xl text-center font-normal py-6 md:py-2 px-3 
+                    border-b-2 md:border-b-0 border-slate-900 hover:bg-slate-600
                     hover:text-opacity-60 md:hover:bg-transparent ease-in-out duration-300"
                   >
                     {/* hover:decoration-white hover:underline hover:decoration-1 */}

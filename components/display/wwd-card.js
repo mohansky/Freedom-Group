@@ -16,7 +16,7 @@ export default function WWDCard({ post }) {
           />
 
           <h4 className="text-xl font-bold line-clamp-1 mt-4">{post.frontmatter.title}</h4>
-          <p className="mt-1 text-sm indent-1 text-left md:line-clamp-2 lg:line-clamp-3">{post.frontmatter.description}</p>
+          <p className="mt-1 text-left text-slate-800 md:line-clamp-2">{post.frontmatter.description}</p>
           <Link href={`/what-we-do/${post.slug}`} className="block mt-4">
             <ButtonSmall>
             Read More

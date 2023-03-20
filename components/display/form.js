@@ -5,7 +5,7 @@ export default function Form() {
     <>
       <div className="w-full mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
         <h5 className="mb-4 uppercase tracking-wider font-semibold text-scblue">
-          Contact Form
+           {/* Form */}
         </h5>
         <div className="grid grid-cols-2 gap-6">
           <label className="block">
