@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Donate",
+    "text": "Donate to any of our programs.",
+    "img": "/icons/support/donate.png"
+  },
+  {
+    "title": "Volunteer",
+    "text": "Volunteer for any of our programs.",
+    "img": "/icons/support/volunteer.png"
+  }
+
+]
