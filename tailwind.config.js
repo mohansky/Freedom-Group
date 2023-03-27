@@ -27,7 +27,7 @@ module.exports = {
       colors: {
         'fgprimary': '#ee753b',
         'fgsecondary': '#23ab6c',
-        'pink': '#ff49db',
+        'fgprimarybg': '#ffe9df',
       },
       screens: {
         '2xl': '1600px',
