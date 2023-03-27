@@ -43,7 +43,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="w-full ">
+        <div className="w-full order-first md:order-last">
           <div className="border-l border-fgprimary pl-4">
             <h2 className="text-3xl leading-tight font-bold my-4">About Us</h2>
             <p className="mt-2 text-justify leading-relaxed text-slate-800">
