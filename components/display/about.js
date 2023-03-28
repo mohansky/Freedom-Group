@@ -5,7 +5,7 @@ export default function About() {
     <>
       <div className="grid md:grid-cols-2 gap-8">
         <div className="w-full ">
-          <div className="border-l border-fgprimary pl-4">
+          <div className="border-l border-fgsecondary pl-4">
             <h2 className="text-3xl leading-tight font-bold my-4">Our Story</h2>
             <p className="mt-2 text-justify leading-relaxed text-slate-800">
               In 2018 we found a government owned room and the selfless work
@@ -21,10 +21,17 @@ export default function About() {
           </div>
 
           <div className="flex">
-            <div className="w-48 bg-fgprimary my-8 grid place-content-center p-4">
-              <p className="text-white text-3xl text-center">
+            <div className="w-48 bg-fgsecondary/50 my-8 grid place-content-center p-4">
+            <Image
+              className="mx-auto rounded-md"
+              src="/images/favicon.png"
+              width={100}
+              height={100}
+              alt="Ajay Das Freedom Group Founder"
+            />
+              {/* <p className="text-white text-3xl text-center">
                 6 Years <br /> of Service
-              </p>
+              </p> */}
             </div>
             <h2 className="text-3xl text-center grid place-content-center leading-tight font-bold my-4">
               &quot;Hands That Serve Are Holier Than That Pray&quot;
@@ -44,7 +51,7 @@ export default function About() {
         </div>
 
         <div className="w-full order-first md:order-last">
-          <div className="border-l border-fgprimary pl-4">
+          <div className="border-l border-fgsecondary pl-4">
             <h2 className="text-3xl leading-tight font-bold my-4">About Us</h2>
             <p className="mt-2 text-justify leading-relaxed text-slate-800">
               Freedom Group was created by Ajay Das and a group of school
