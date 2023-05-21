@@ -1,9 +1,9 @@
-import Head from "next/head"; 
-import PageTitle from "@display/page-title"; 
+import Head from "next/head";
+import PageTitle from "@display/page-title";
 import Container from "@layout/container";
 import SupportGrid from "@display/support-grid";
 import SupportCard from "@display/support-card";
-import SupportList from "@data/support.json"
+import SupportList from "@data/support.json";
 
 export default function Support() {
   return (
@@ -20,12 +20,18 @@ export default function Support() {
       <main>
         <Container>
           <PageTitle> Support Us </PageTitle>
+          <div className="md:w-3/4 lg:w-3/4 mx-auto">  
+          <p className="text-center leading-relaxed text-slate-800">
+          Your smallest contribution makes a big difference to children’s lives. <br/>
+          We count on the generosity of people like you to be able to create real change for India’s children! <br/>
+          Thank you so much for supporting us.</p>
+          </div>
           <div className="my-16">
-            <SupportGrid>
-            {SupportList.map((support, index) => (
-              <SupportCard key={index} support={support} />
+            <div>
+              {SupportList.map((support, index) => (
+                <SupportCard key={index} support={support} />
               ))}
-            </SupportGrid>
+            </div>
           </div>
         </Container>
       </main>
