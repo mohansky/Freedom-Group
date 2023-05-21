@@ -10,8 +10,8 @@ export default function WWDCard({ post }) {
           src={post.frontmatter.img}
           alt={post.frontmatter.title}
           className="rounded-t-lg"
-          width={480}
-          height={360}
+          width={640}
+          height={480}
         />
 
         <div className="p-4">

@@ -7,7 +7,7 @@ export default function About() {
         <div className="w-full ">
           <div className="border-l border-fgsecondary pl-4">
             <h2 className="text-3xl leading-tight font-bold my-4">Our Story</h2>
-            <p className="mt-2 text-justify leading-relaxed text-slate-800">
+            <p className="indent-8 mt-2 text-justify leading-relaxed text-slate-800">
               In 2018 we found a government owned room and the selfless work
               developed for the children with Rangoli and Mehendi competitions,
               sports competitions, art camps and hindi english speech
@@ -38,7 +38,7 @@ export default function About() {
             </h2>
           </div>
 
-          <p className="mt-2 text-justify leading-relaxed text-slate-800">
+          <p className="indent-8 mt-2 text-justify leading-relaxed text-slate-800 ">
             Currently 50 children attend our small centre daily. During the
             Pandemic, our centre was the base for many hundreds of Ration
             Distributions, which we delivered to widows, below poverty level
@@ -53,7 +53,7 @@ export default function About() {
         <div className="w-full order-first md:order-last">
           <div className="border-l border-fgsecondary pl-4">
             <h2 className="text-3xl leading-tight font-bold my-4">About Us</h2>
-            <p className="mt-2 text-justify leading-relaxed text-slate-800">
+            <p className="indent-8 mt-2 text-justify leading-relaxed text-slate-800">
               Freedom Group was created by Ajay Das and a group of school
               friends in 2017 who shared a strong inclination to Serve, and came
               together with local slum children to clean the Ghats of Holy River
@@ -63,7 +63,8 @@ export default function About() {
           <div className="my-8">
             <Image
               className="mx-auto rounded-md"
-              src="/images/ajay-das.jpg"
+              src="/images/fg-team.jpg"
+              // src="/images/ajay-das.jpg"
               width={640}
               height={480}
               alt="Ajay Das Freedom Group Founder"
