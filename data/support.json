@@ -1,13 +1,14 @@
 [
   {
     "title": "Account Details",
-    "text": [ "Account Holder Name: Freedom Group Foundation Society",  
-              "Branch Name: YES Bank Rishikesh",
-              "Current Account: 039188700000281", 
-              "Saving Account: 039194600000682",
-              "IFSC: YESB0000391"
-              ],
+    "text": [
+      "Account Name: Freedom Group Foundation Society",
+      "Bank name: YES Bank",
+      "Branch Name: Rishikesh",
+      "Current Account: 039188700000281",
+      "Saving Account: 039194600000682",
+      "IFS Code: YESB0000391"
+    ],
     "img": "/icons/support/donate.png"
   }
- 
 ]
