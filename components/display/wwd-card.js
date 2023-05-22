@@ -15,7 +15,7 @@ export default function WWDCard({ post }) {
         />
 
         <div className="p-4">
-          <h4 className="text-xl font-bold line-clamp-1 mt-1">
+          <h4 className="text-xl font-bold  mt-1">
             {post.frontmatter.title}
           </h4>
           <p className="mt-1 text-left text-slate-800 md:line-clamp-4">

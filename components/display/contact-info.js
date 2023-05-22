@@ -10,9 +10,9 @@ export default function ContactInfo() {
           <li className="bg-slate-50 w-3/4 md:w-full mx-auto rounded-lg shadow-lg p-6  ">
             <Icon
               icon="ph:map-pin-duotone"
-              className="w-12 h-12 mx-auto text-fgsecondary"
+              className="mb-3 w-12 h-12 mx-auto text-fgsecondary"
             />
-            <h4 className="my-3 text-3xl">Address</h4>
+            {/* <h4 className="my-3 text-3xl">Address</h4> */}
             <p className="md:text-normal lg:text-lg">
               #336 A, Chandreshwar Road <br />
               Rishikesh Dehradun <br />
@@ -22,9 +22,9 @@ export default function ContactInfo() {
           <li className="group bg-slate-50 w-3/4 md:w-full mx-auto rounded-lg shadow-lg p-6  ">
             <Icon
               icon="ph:phone-duotone"
-              className="w-12 h-12 mx-auto text-fgsecondary"
+              className="mb-3 w-12 h-12 mx-auto text-fgsecondary"
             />
-            <h4 className="my-3 text-3xl">Call Us</h4>
+            {/* <h4 className="my-3 text-3xl">Call Us</h4> */}
             <a
               href="telto:+916395515553"
               className="md:text-normal lg:text-lg group-hover:text-fgprimary ease-in-out duration-500 cursor-pointer"
@@ -35,9 +35,9 @@ export default function ContactInfo() {
           <li className="group bg-slate-50 w-3/4 md:w-full mx-auto rounded-lg shadow-lg p-6 ">
             <Icon
               icon="ph:envelope-duotone"
-              className="w-12 h-12 mx-auto text-fgsecondary"
+              className="mb-3 w-12 h-12 mx-auto text-fgsecondary"
             />
-            <h4 className="my-3 text-3xl">Mail Us</h4>
+            {/* <h4 className="my-3 text-3xl">Mail Us</h4> */}
             <a
               href="mailto:freedomgrouprishikesh@gmail.com"
               className="md:text-normal lg:text-lg group-hover:text-fgprimary ease-in-out duration-500 cursor-pointer break-words"

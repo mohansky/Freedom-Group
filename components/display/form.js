@@ -4,7 +4,7 @@ export default function Form() {
   return (
     <>
       <div className="w-full mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
-        <h5 className="mb-4 uppercase tracking-wider font-semibold text-scblue">
+        <h5 className="mb-4 tracking-wider font-semibold text-3xl">
         Get In Touch
         </h5>
         <div className="grid grid-cols-2 gap-6">

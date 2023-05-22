@@ -10,8 +10,8 @@ export default function SupportCard({ support }) {
         width={100}
         height={100}
       /> */}
-      <h4 className="my-3 text-3xl text-center">{support.title}</h4>
-      <ul className="leading-relaxed text-slate-800 text-center ">
+      <h4 className="my-3 text-3xl font-semibold text-center">{support.title}</h4>
+      <ul className="text-center leading-relaxed text-slate-800 md:w-1/2 mx-auto">
         {support.text.map((item, index) => (
           <li key={index}>{item}</li>
         ))}

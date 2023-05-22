@@ -7,22 +7,22 @@ export default function Hero({ item }) {
   return (
     <>
       <div className="relative px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-48 overflow-hidden flex items-center min-h-screen">
-        <div className="w-full h-full absolute top-0 left-0 z-30 bg-black opacity-20 "></div>
-        <div className="w-full h-full absolute top-0 left-0 z-20 bg-top">
+        <div className="w-full h-full absolute top-0 left-0 z-30 bg-black opacity-20"></div>
+        <div className="w-full h-full absolute top-0 left-0 z-20 bg-left-top blur-sm">
           <Image
             src={item.img}
             alt={item.title}
             width={1920}
             height={1080}
-            className="w-full h-full object-cover "
+            className="w-full h-full object-cover"
           />
         </div>
 
         <div className="lg:w-3/4 xl:w-3/4 relative z-50 h-100 lg:mt-16">
-            <h1 className="text-white drop-shadow-2xl text-5xl md:text-7xl xl:text-8xl font-black leading-tight">
+            <h1 className="text-fgprimary drop-shadow-2xl text-5xl md:text-7xl xl:text-8xl font-black leading-tight">
               {item.title}
             </h1>
-            <p className="text-white drop-shadow-2xl text-xl md:text-4xl leading-snug mt-4 ">
+            <p className="text-fgprimary drop-shadow-2xl text-xl md:text-4xl leading-snug mt-4 ">
               {item.subtitle}
             </p>
             <Link href={item.btnUrl}>
