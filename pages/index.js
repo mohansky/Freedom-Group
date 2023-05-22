@@ -46,7 +46,7 @@ export default function Home({ posts }) {
         >
           <SectionTitle>What we do</SectionTitle>
           <div className="py-5 grid md:grid-cols-2 gap-x-10 w-full h-fit">
-            <p className="mb-5 indent-8 text-justify leading-relaxed text-slate-800">
+            <p className="mb-5 text-justify leading-relaxed text-slate-800">
               Freedom Group Foundation Society&apos;s flagship program Mission
               Education works with the objective of empowering underprivileged
               children by providing education, nutrition, and wellness support.
@@ -59,7 +59,7 @@ export default function Home({ posts }) {
               children, and children living in tribal belts, remote villages and
               hard to reach areas.{" "}
             </p>
-            <p className="mb-5 indent-8 text-justify leading-relaxed text-slate-800">
+            <p className="mb-5 text-justify leading-relaxed text-slate-800">
               If we need to address healthcare, poverty, population control,
               unemployment and human rights, there&apos;s no better way to start
               than providing education to children in need. Education not only
