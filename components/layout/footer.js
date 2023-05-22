@@ -28,10 +28,10 @@ export default function Footer() {
             />
           </div>
           <div className="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
-          <h5 className="uppercase tracking-wider font-semibold text-gray-500">
+          {/* <h5 className="uppercase tracking-wider font-semibold text-gray-500">
               Main Menu
-            </h5>
-            <ul className=" ">
+            </h5> */}
+            <ul className="mt-4">
               {MenuItems.map((item, index) => (
                 <li key={index}
                   className="text-white text-lg font-normal py-1
@@ -43,9 +43,9 @@ export default function Footer() {
             </ul>
           </div>
           <div className="w-full lg:w-3/6 mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
-            <h5 className="uppercase tracking-wider font-semibold text-gray-500">
+            {/* <h5 className="uppercase tracking-wider font-semibold text-gray-500">
               Contact Details
-            </h5>
+            </h5> */}
             <ul className="mt-4">
               <li className="mt-4 cursor-text flex ">
                 <span>
@@ -89,12 +89,12 @@ export default function Footer() {
 
         
            <div className="w-full lg:w-2/6 mt-8 lg:mt-0 lg:mx-4">
-            <h5 className="uppercase tracking-wider font-semibold text-gray-500 ">
+            <h5 className="mt-4  uppercase text-xs tracking-wider font-semibold text-gray-500 ">
               Follow us on Social media
             </h5>
             <ul className="flex mt-4  text-white">
               <li>
-                <Link href="#" target="_blank" title="">
+                <Link href="https://www.facebook.com/freedomgrouprishikesh" target="_blank" title="">
                   <Icon
                     icon="mdi:facebook"
                     className="w-10 h-10 hover:text-fgprimary ease-in-out duration-500 cursor-pointer"
@@ -103,7 +103,7 @@ export default function Footer() {
               </li>
 
               <li className="ml-6">
-                <Link href="#" target="_blank" title="">
+                <Link href="https://www.instagram.com/freedomgrouprishikesh/" target="_blank" title="">
                   <Icon
                     icon="mdi:instagram"
                     className="w-10 h-10 hover:text-fgprimary ease-in-out duration-500 cursor-pointer"
@@ -112,17 +112,17 @@ export default function Footer() {
               </li>
             </ul>
 
-            <h5 className="uppercase tracking-wider font-semibold text-gray-500 mt-8">
+            <h5 className="uppercase text-xs tracking-wider font-semibold text-gray-500 mt-8">
               Registered under
             </h5>
-            <ul className="flex mt-4  text-white">
-              <li>Reg. Uk0600882021006607</li>
+            <ul className="flex mt-4 text-white">
+              <li>Reg. UK0600882021006607</li>
             </ul>
           </div>
         </div>
         <div className="pt-4 lg:pt-4 pb-3">
           <hr className="pb-3 border-t-1 border-gray-600" />
-          <div className="flex justify-between">
+          <div className="text-center md:flex justify-between">
             <p className="text-sm text-gray-600 ">
               © {new Date().getFullYear()} Freedom Group Rishikesh. All Rights
               Reserved.
