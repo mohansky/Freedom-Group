@@ -6,7 +6,8 @@
         "@ui/*": ["components/ui/*"], 
         "@display/*": ["components/display/*"],
         "@gallery/*": ["components/gallery/*"],
-        "@data/*": ["data/*"]
+        "@data/*": ["data/*"],
+        "@lib/*": ["lib/*"]
       }
     }
   }

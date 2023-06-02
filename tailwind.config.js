@@ -42,6 +42,9 @@ module.exports = {
           'screen-2xl': theme('screens.2xl'),
         }
       },
+      blur: {
+        xs: '2px',
+      }
     },
   },
   variants: {
