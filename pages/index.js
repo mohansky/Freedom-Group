@@ -25,10 +25,11 @@ import {
 
 export default function Home({ posts }) {
   const WWDList = posts.filter((post) => !post.frontmatter.draft);
+  const siteTitle = `${SITE_TITLE} | HOME`;
   return (
     <>
-      <Head>
-        <title> {SITE_TITLE} </title>
+      <Head> 
+        <title> Freedom Group Rishikesh </title>
         <meta name="description" content={SITE_DESC} />
         <link rel="canonical" href={BASE_PATH} />
         <meta name="robots" content="index" />
