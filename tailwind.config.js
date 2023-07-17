@@ -26,7 +26,7 @@ module.exports = {
     extend: {
       colors: {
         'fgprimary': '#ee753b',
-        'fgprimaryfont': '#ce4a12',
+        'fgprimaryfont': '#9D3710',
         'fgsecondary': '#23ab6c',
         'fgprimarybg': '#ffe9df',
       },
