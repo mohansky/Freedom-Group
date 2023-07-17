@@ -26,6 +26,7 @@ export default function NavBar() {
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-none focus:bordborder-none ease-in-out duration-500"
                   onClick={() => setNavbar(!navbar)}
+                  aria-label="Menu Icon"
                 >
                   {navbar ? (
                     <Icon 

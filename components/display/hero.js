@@ -14,7 +14,8 @@ export default function Hero({ item }) {
             alt={item.title}
             width={1920}
             height={1080}
-            className="w-full h-full object-cover grayscale "
+            className="w-full h-full object-cover grayscale"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
 
