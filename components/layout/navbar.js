@@ -13,10 +13,10 @@ export default function NavBar() {
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-1 md:block">
-              <Link href="/">
+              <Link href="/" aria-label="Back home">
                 <Image
                   src="/images/fglogo.svg"
-                  alt=""
+                  alt="Freedom Group Rishikesh"
                   className=""
                   width={100}
                   height={100}

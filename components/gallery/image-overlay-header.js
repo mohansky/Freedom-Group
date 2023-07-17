@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react";
 
 export default function ImageOverlayHeader ({ title, images, currentIndex, onClose }) {
   return(
-  <header className="cursor-auto flex justify-between px-2 py-6 text-center">
+  <header className="cursor-auto flex justify-between px-20 py-6 text-center">
     <div className="flex flex-col justify-center">
       <h2 className="m-0 font-normal text-white">{title}</h2>
       <h4 className="m-0 font-normal text-white">{images[currentIndex].title}</h4>
